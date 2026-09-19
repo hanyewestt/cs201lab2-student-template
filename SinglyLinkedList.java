@@ -134,7 +134,7 @@ public class SinglyLinkedList<E extends Comparable<E>> {
 
             Node<E> newNode = new Node(valueToSwap, null);
 
-            
+
             if (newHead == null) {
                 newHead = newNode;
                 newTail = newNode;
@@ -148,6 +148,7 @@ public class SinglyLinkedList<E extends Comparable<E>> {
 
         head = newHead;
         tail = newTail;
+
 
     }
 
